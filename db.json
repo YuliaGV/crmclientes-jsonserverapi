@@ -1,0 +1,31 @@
+{
+  "clientes": [
+    {
+      "nombre": "Lionel Messi",
+      "empresa": "PSG",
+      "email": "lmessi@gmail.com",
+      "telefono": "3218527293",
+      "direccion": "Calle 26 #58a-65",
+      "comentario": "",
+      "id": 3
+    },
+    {
+      "nombre": "Felipe Zapata",
+      "empresa": "Google",
+      "email": "pipez1996@gmail.com",
+      "telefono": "3236548425",
+      "direccion": "Calle 70 #90-11",
+      "comentario": "",
+      "id": 4
+    },
+    {
+      "nombre": "Mónica García",
+      "empresa": "Amazon",
+      "email": "monig1991@gmail.com",
+      "telefono": "3215324183",
+      "direccion": "Carrera 40 #48a-84",
+      "comentario": "",
+      "id": 5
+    }
+  ]
+}
