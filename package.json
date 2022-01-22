@@ -2,9 +2,9 @@
   "name": "crm-clientes",
   "version": "0.0.0",
   "scripts": {
+    "serve": "vite preview",
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build"
   },
   "dependencies": {
     "formik": "^2.2.9",

@@ -4,13 +4,14 @@ import swal from 'sweetalert';
 
 const Home = () => {
 
+
     const[clientes, setClientes] = useState([]);
 
     useEffect(() => {
         const getClientsAPI = async () => {
            
             try {
-                const url = 'http://localhost:4000/clientes';
+                const url = import.meta.env.VITE_API_URL;
                 const response = await fetch(url);
                 const data = await response.json();
                 setClientes(data);
@@ -34,7 +35,7 @@ const Home = () => {
         if(confirm) {
 
             try {
-                const url = `http://localhost:4000/clientes/${id}`;
+                const url = `${import.meta.env.VITE_API_URL}/${id}`;
                 const response = await fetch(url, {
                     method: 'DELETE'
                 });
